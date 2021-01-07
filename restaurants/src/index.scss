@@ -1,0 +1,30 @@
+@import "./theme/variables.scss";
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  outline: none !important;
+}
+
+code {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  outline: none !important;
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 14px !important;
+}
+.heading {
+  font-size: 24px;
+}
+.btn-primary {
+  background-color: var(--color-primary) !important;
+  border-radius: 12px !important;
+  border: none !important;
+  padding: 15px;
+  width: 100%;
+}

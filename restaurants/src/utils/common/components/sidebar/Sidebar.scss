@@ -1,0 +1,101 @@
+@import "../../../../theme/variables.scss";
+
+$active: #3a3a3a;
+.fa-2x {
+    font-size: 25px;
+}
+.icon {
+    position: relative;
+    display: table-cell;
+    width: 90px;
+    height: 5vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main-menu .nav-text {
+    display: table-cell !important;
+    font-size: 16px;
+    cursor: pointer;
+}
+.sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 270px;
+    overflow: hidden;
+    -webkit-transition: width 0.05s linear;
+    transition: width 0.05s linear;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    z-index: 1000;
+    background: var(--color-nav);
+    color: var(--color-icon) !important;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.main-menu > ul {
+    margin: 10px 10px 0px 10px;
+}
+
+.main-menu li {
+    position: relative;
+    display: block;
+    padding: 12px 0px;
+}
+
+.main-menu li > a {
+    position: relative;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    margin: auto;
+}
+
+.main-menu .nav-icon {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.main-menu .nav-text {
+    position: relative;
+    display: none;
+    vertical-align: middle;
+    max-width: 160px;
+    width: 160px;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+nav ul,
+nav li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    border-radius: 5px;
+    border-radius: 12px;
+    color: var(--white-background);
+    background-color: var(--color-primary);
+    width: 60px;
+    font-weight: bold;
+    padding: 25px 0px 15px 0px;
+}
+
+.logo {
+    padding: 20px 30px;
+}
+

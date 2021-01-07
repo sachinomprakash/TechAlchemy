@@ -1,0 +1,108 @@
+.header {
+    height: 5rem;
+}
+.search-input {
+    background: var(--gray-background);
+    border-radius: 10px;
+    padding: 15px;
+    width: 385px;
+    outline: none !important;
+    border: 0.5px !important;
+    height: 48px;
+}
+
+.filter-btn {
+    height: 48px;
+    width: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color-primary);
+    color: var(--white-background);
+    outline: none !important;
+}
+.cart {
+    color: var(--white-background);
+    background-color: var(--color-secondary);
+}
+// modal styles
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 480px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    border-radius: 24px 0px 0px 24px !important;
+}
+
+.modal.right .modal-body {
+    padding: 40px;
+}
+.modal-title {
+    font-weight: bold !important;
+    font-size: 24px !important;
+}
+.modal.fade:not(.in) .modal-dialog {
+    -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+.modal-header {
+    border-bottom: none !important;
+    padding: 40px;
+}
+.close {
+    width: 48px !important;
+    height: 48px !important;
+    background: var(--gray-background) !important;
+    border-radius: 10px !important;
+    padding: 0px !important;
+}
+.modal.right.fade .modal-dialog {
+    right: 0px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+.sort-btn {
+    width: 48px;
+    height: 48px;
+    background: rgba(251, 109, 58, 0.1);
+    border-radius: 9px;
+    color: var(--color-secondary);
+    border: none;
+}
+.open-filter {
+    color: var(--color-secondary);
+    font-size: 16px;
+    font-weight: 700;
+}
+.filter-chip {
+    min-width: 70px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+.filter-chip.secondary{
+    background: rgba(251, 109, 58, 0.1);
+    color: var(--color-secondary);
+}
+.filter-chip.primary{
+    background: var(--gray-background);
+}
+.modal-footer{
+    border-top: none !important;
+}
