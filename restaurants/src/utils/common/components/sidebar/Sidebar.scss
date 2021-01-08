@@ -7,7 +7,7 @@ $active: #3a3a3a;
 .icon {
     position: relative;
     display: table-cell;
-    width: 90px;
+    width: 65px;
     height: 5vh;
     text-align: center;
     vertical-align: middle;
@@ -24,7 +24,7 @@ $active: #3a3a3a;
     bottom: 0;
     height: 100%;
     left: 0;
-    width: 270px;
+    width: auto;
     overflow: hidden;
     -webkit-transition: width 0.05s linear;
     transition: width 0.05s linear;
@@ -72,8 +72,8 @@ $active: #3a3a3a;
     position: relative;
     display: none;
     vertical-align: middle;
-    max-width: 160px;
-    width: 160px;
+    max-width: 140px;
+    width: 140px;
     font-family: Open Sans;
     font-style: normal;
 }
